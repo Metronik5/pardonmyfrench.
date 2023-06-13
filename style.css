@@ -1,0 +1,564 @@
+@font-face {
+    font-family: D-DIN-Bold,Arial;
+    src: url('fonts/D-DIN-Bold.otf');
+} 
+html{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'D-DIN-Bold',Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif;
+}
+a{
+   color: #fff;
+   text-decoration: none;
+}
+header{
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+header.scrolled {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 100%;
+    padding-right: 50px;
+    color: #000000;
+    box-shadow: 0 6px 14px rgb(0 0 0 / 5%), 0 3px 3px rgb(0 0 0 / 5%);
+  }
+header.scrolled a{
+    color: #000000;
+  }
+.logo img{
+    height: 85px;
+    width: 85px;
+}
+header a.logo{
+    margin-right: 20px;
+}
+.center-nav a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 20px;
+}
+section{
+    min-height: 900px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.vinbar{
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    font-size: 40px;
+    text-shadow: 0 0 20px #c9c9c9;
+}
+.main_concent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    box-sizing: content-box;
+    width: 1200px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+}
+.bronirovanie{
+    display: grid;
+    align-items: center;
+}
+.banner ul{
+    list-style: none;
+    color: #fff;
+}
+.list_banner{
+    justify-content: center;
+}
+.list_banner li{
+    width: 100%;
+    padding: 5px 0px;
+    max-width: 400px;
+    text-align: left;
+}
+.bron{
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.text-field__input{
+    width: 100%;
+    height: 40px;
+    background: none;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0;
+    color: #ffffff;
+    outline:none;
+    margin-bottom: 10px;
+}
+.sogl{
+    color: #fff;
+    margin-top: 5px;
+}
+.reservation-button{
+    float: none;
+    margin-top: 28px;
+    text-align: center;
+    padding-right: 45px;
+    width: 100%;
+}
+.reserv-but{
+    cursor: pointer;
+    border: 1px solid #cca370;
+    background-color: transparent;
+    height: 50px;
+    width: 100%;
+    color: #ffffff;
+    font-size: 18px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    transition: background-color 0.5s ease-in-out;
+}
+.reserv-but:hover{
+    background-color: #cca370;
+}
+img {
+    vertical-align: middle;
+    padding: 10px;
+}
+.numbercol{
+    color: #fff;
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+}
+.lookmap{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    text-decoration: none;
+}
+.fa{
+    margin-right: 10px;
+    text-decoration: none;
+}
+.obrz{
+    padding-top: 80px;
+}
+.live{
+    color: #303e4c;
+    font-size: 40px;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.izbr{
+    color: #303e4c;
+    font-size: 30px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+}
+.vinelovezone{
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.desc-bar{
+    font-size: 36px;
+}
+.vinelovezone p{
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.wpb{
+    font-size: 40px;
+    color: #303e4c;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.promo{
+    display: flex;
+    justify-content: center;
+}
+.textakz{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.btn_bron{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn_bron_zon{
+    cursor: pointer;
+    border: 2px solid #cca370;
+    background-color: transparent;
+    height: 35px;
+    width: 70%;
+    color: #444444;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease-in-out;
+}
+.btn_bron_zon:hover{
+    background-color: #cca370;
+    color: #fff;
+}
+.menustarti{
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(https://o-zh.ru/wp-content/uploads/2019/06/dsc0616.jpg);
+    background-attachment: scroll;
+    width: 100%;
+    height: 440px;
+    background-position: 50% -125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menuholst{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.europa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.btn_look{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn_look_menu{
+    cursor: pointer;
+    border: 2px solid #cca370;
+    background-color: transparent;
+    height: 50px;
+    width: 50%;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease-in-out;
+}
+.btn_look_menu:hover{
+    background-color: #cca370;
+}
+.vinika{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #303e4c;
+    margin-top: 80px;
+    margin-bottom: 25px;
+    font-size: 46px;
+}
+.somelie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #303e4c;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+.btn_look_vin{
+    display: flex;
+    align-items: center;
+}
+.btn_look_vin_map{
+    cursor: pointer;
+    border: 2px solid #cca370;
+    background-color: transparent;
+    height: 35px;
+    width: 30%;
+    color: #444444;
+    font-size: 14px;
+    padding: 15px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease-in-out;
+}
+.btn_look_vin_map:hover{
+    background-color: #cca370;
+    color: #fff;
+}
+.vinlive_map{
+    margin-top: 45px;
+    margin-left: 25px;
+}
+.dostavka{
+    text-align: right;
+    padding: 0px 90px 0 30px;
+    margin: 45px 0px 45px 0 ;
+}
+.galereya{
+    background-color: #324050;
+    height: 1980px;
+    left: 15px;
+    box-sizing: border-box;
+}
+.galererya_text{
+    color: #fff;
+    font-size: 40px;
+    padding-top: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.pageable-slide{
+    display: flex;
+    justify-content: center;
+}
+.zone-img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+.vc-item-1{
+    width: 400px; 
+    height: 705px;
+    margin-bottom: 20px;
+}
+video{
+    width: 400px; 
+    height: 705px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.kodex2{
+    display: block
+}
+.vinbarZ{
+    background-color: #EAEAEA;
+    height: 300px;
+}
+.textlive{
+    font-size: 40px;
+    color: #303e4c;
+    text-align: center;
+    padding-top: 60px;
+}
+.num-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.btn_block_vin{
+    display: flex;
+    align-items: center;
+}
+.btn_look_vin_rest{
+    cursor: pointer;
+    border: 2px solid #cca370;
+    background-color: transparent;
+    height: 35px;
+    width: 270px;
+    color: #000000;
+    font-size: 14px;
+    padding: 15px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease-in-out;
+}
+.btn_look_vin_rest:hover{
+    background-color: #cca370;
+}
+.minakarte{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.cotacts-top{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.contacts-item{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.contacts-item img{
+    width: 70px;
+    height: 70px;
+}
+.text{
+    padding: 20px 0px 10px 10px;
+}
+/*  Menu Start */
+.menu{
+    background-image: url('img/dscmenu.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0px;
+    height: 510px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-menu{
+    color: #fff;
+    font-size: 48px;
+    border-bottom: 2px solid #d1a773;
+    display: inline-block;
+}
+.menu-2{
+    background-color: #f7f7f7;
+    height: 350px;
+}
+.text-menu-1{
+    color: #000000;
+    font-size: 30px;
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.bludopic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bludopic img{
+    width: 70px;
+    height: 70px;
+}
+.text-menu-2{
+    font-size: 20px;
+}
+.text-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #444444;
+    font-size: 22px;
+}
+.menu-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-photo img{
+    padding: 0px;
+}
+/*  Menu End */
+/*  ViboMap Start */
+.vino{
+    background-image: url('img/vino.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0px;
+    width: 100%;
+    height: 510px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vino-photo{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.vino-photo-1 img{
+    width: 1200px;
+}
+/*  ViboMap End */
+/* Dostavka Start */
+.menu-dost{
+    background-image: url('img/vino.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0px;
+    width: 100%;
+    height: 510px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-4{
+    margin: 0px;
+}
+.menu-dostavka{
+    background-color: #f7f7f7;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.dostyand{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+/* Dostavka End */
+footer{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.logo-footer{
+    padding-right: 40px;
+}
+.timework{
+    color: #303e4c;
+    font-size: 24px;
+    padding-right: 110px;
+}
+.contacs{
+    color: #303e4c;
+    font-size: 24px;
+}
+.textwidget{
+    color: #444444;
+    font-size: 20px;
+}
+
+

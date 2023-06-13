@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>PMF</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="img/PMF-00_1.svg">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="headermain">
+        <a href="" class="logo"><img src="img/PMF-00_1.svg" alt=""></a>
+        </div>
+        <nav class="center-nav">
+            <a href="index.html">Главная</a>
+            <a href="menu.html">Меню</a>
+            <a href="vinmaps.html">Винная карта</a>
+            <a href="dostavka.html">Доставка</a>
+            <a href="#akzie-1">Акции</a>
+            <a href="#contaxks">Контакты</a>
+            <a>+7 (383) 381-91-02</a>
+        </nav>
+        <script>
+            window.addEventListener('scroll', function() {
+             var header = document.querySelector('header');
+              var scrollPosition = window.scrollY;
+                 if (scrollPosition > 50) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+                });
+        </script>
+    </header>
+    <section id="main" style="background-image: url('img/main2.jpg'); width: 100%;">
+        <div class="vinbar">ВИННЫЙ БАР & РЕСТОРАН В НОВОСИБИРСКЕ</div>
+        <div class="main_concent">
+            <div class="content">
+                <div class="banner">
+                    <ul class="list_banner">
+                        <li><img src="img/oyster.svg">В четверг устрицы от 170 руб/шт</li>
+                        <li><img src="img/wine.svg">Более 100 вин в ассортименте</li>
+                        <li><img src="img/money.svg">Средний чек 2500 руб.</li>
+                        <li><img src="img/chillout.svg">Каждую пятницу - живая музыка</li>
+                        <li><img src="img/restaurant.svg">Авторская кухня от шеф-повара</li>
+                    </ul>
+                </div>
+                <div class="bronirovanie">
+                    <div class="bron">ЗАБРОНИРУЙТЕ СТОЛИК ЗА 15 СЕКУНД</div>
+                    <div class="col-12">
+                        <input class="text-field__input" type="text" placeholder="Ваше имя">
+                    </div>
+                    <div class="col-12">
+                        <input class="text-field__input" type="text" placeholder="Ваш телефон">
+                    </div>
+                    <div class="col-12">
+                        <input class="text-field__input" type="text" placeholder="Укажите дату и время">
+                    </div>
+                    <div class="col-12">
+                        <input class="text-field__input" type="text" placeholder="Укажите количество гостей">
+                    </div>
+                    <span class="sogl"><label><input type="checkbox" name="acceptance-223" value="1" aria-invalid="false"
+                                checked="checked"><span>Нажимая на кнопку, я соглашаюсь с условиями политики
+                                конфиденциальности.</span></label></span>
+                    <div class="reservation-button"><button class="reserv-but" name="button"><a href="index.html">Забронировать стол</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="numbercol">Чтобы забронировать столик, звоните по номеру <br><div class="num" style="text-align: center;">+7 (499) 113-34-65</div></div>
+        <div class="lookmap"><a href="#contaxks"><i class="fa fa-map-marker" aria-hidden="true"></i>ПОСМОТРЕТЬ НА КАРТЕ</a></div>
+    </section>
+    <section>
+        <div class="obrz">
+            <div class="live">Винный бар & Ресторан «Pardon My French»</div>
+
+            <div class="izbr">не для избранных, а для всех</div>
+        </div>
+        <div class="vinelovezone">
+            <div class="vinlive">
+                <p>
+                    <span class="desc-bar">Вино делает людей счастливыми!</span>
+                </p>
+                <p>
+                    <span>Пить хорошее вино с хорошей едой и в хорошей компании — одно из лучших удовольствий,
+                        придуманных человечеством.</span>
+                </p>
+                <p>
+                    <span>Вино — это жизнь, поэтому винный бар Pardon My French про вино и для людей!</span>
+                </p>
+                <p>
+                    <span>Мы готовим различные закуски под вино.</span>
+                </p>
+                <p>
+                    <span>Шеф-повар удивит Вас оригинальной подачей и изысканностью блюд авторской кухни.</span>
+                </p>
+            </div>
+            <div class="vinezone"><img src="img/atmos.jpg"></div>
+        </div>
+    </section>
+    <section>
+        <div class="wpb" id="akzie-1">Акции & Специальные предложения</div>
+        <div class="promo">
+            <div class="akzie"><img src="img/ustezi.jpg" alt="">
+                <div class="textakz">Устрицы 170 р/шт по четвергам</div>
+                <div class="btn_bron"><button class="btn_bron_zon"><a href="#main" style="color: #444444;">ЗАБРОНИВАТЬ СТОЛ</a></button></div>
+            </div>
+            <div class="akzie"><img src="img/krevetki.jpg" alt="">
+                <div class="textakz">Плато гренландских креветок 990 руб.</div>
+                <div class="btn_bron"><button class="btn_bron_zon"><a href="#main" style="color: #444444;">ЗАБРОНИВАТЬ СТОЛ</a></button></div>
+            </div>
+            <div class="akzie"><img src="img/saxophone.jpg" alt="">
+                <div class="textakz">Каждую пятницу - живая музыка</div>
+                <div class="btn_bron"><button class="btn_bron_zon"><a href="#main" style="color: #444444;">ЗАБРОНИВАТЬ СТОЛ</a></button></div>
+            </div>
+            <div class="akzie"><img src="img/birthday.pjg.png" alt="">
+                <div class="textakz">Именинникам -10% скидка на все меню.</div>
+                <div class="btn_bron"><button class="btn_bron_zon"><a href="#main" style="color: #444444;">ЗАБРОНИВАТЬ СТОЛ</a></button></div>
+            </div>
+        </div>
+    </section>
+    <div class="menustarti">
+        <div class="edushka">
+            <div class="menuholst">Меню</div>
+            <div class="europa">Европейская, Израильская и вегетарианская кухня</div>
+            <div class="btn_look"><button class="btn_look_menu"><a href="menu.html">ПОСМОТРЕТЬ МЕНЮ</a></button></div>
+        </div>
+    </div>
+    <section >
+        <div class="vinokarta">
+            <div class="vinika">Винная Карта</div>
+            <div class="somelie">для самых изысканных сомелье
+            </div>
+            <div class="vinelovezone">
+                <div class="vinezone"><img src="img/vinishka1.jpg"></div>
+                <div class="vinlive_map">
+                    <p>
+                        <span>Мы следим за мировыми тенденциям в мире вина, чтобы отобрать для вас только самое актуальное и интересное.</span>
+                    </p>
+                    <p>
+                        <span>Постоянно проводим тщательную селекцию вин, стараемся сделать вино наиболее доступным для вас.</span>
+                    </p>
+                    <div class="btn_look_vin"><button class="btn_look_vin_map"><a href="vinmaps.html" style="color: #000000;">ПОСМОТРЕТЬ ВИННУЮ КАРТУ</a></button></div>
+                </div>
+            </div>
+        </div>
+        <div class="dostavka">
+            <div class="vinika">Доставка</div>
+            <div class="vinelovezone">
+                <div class="dostavka">
+                    <p>
+                        <span>— радиус доставки 2 км,</span>
+                    </p>
+                    <p>
+                        <span>— доставка от 2000 рублей,</span>
+                    </p>
+                    <p>
+                        <span>— доставляем все позиции кроме устриц, так как шеф-повар проверяет</span>
+                    </p>
+                    <p>
+                        <span>устрицы непосредственно перед подачей.</span>
+                    </p>
+                </div>
+                <div class="vinezone"><img src="img/Образ-жизни-4-2.jpg"></div>
+            </div>
+        </div>
+    </section>
+    <div class="galereya">
+        <div class="galererya_text">Галерея</div>
+        <div class="pageable-slide">
+            <div class="kodex1">
+                <div class="vc-item">
+                    <img src="img/block-1.jpg" class="zone-img" alt="">
+                </div>
+                <div class="vc-item">
+                    <img src="img/block-2.jpg" class="zone-img" alt="">
+                </div>
+                <div class="vc-item">
+                    <img src="img/block-3.jpg" class="zone-img" alt="">
+                </div>
+                <div class="vc-item">
+                    <img src="img/block-4.jpg" class="zone-img" alt="">
+                </div>
+            </div>
+            <div class="kodex2">
+                <div class="vc-item">
+                    <img src="img/block-5.jpg" class="zone-img" alt="">
+                </div>
+                <div class="vc-item-1">
+                    <video controls>
+                        <source  class="vidosik" controls="controls" type="video/mp4" src="img/ждем вас в гости!.mp4" />
+                      </video>
+                </div>
+                <div class="vc-item">
+                    <img src="img/block-6.jpg" class="zone-img" alt="">
+                </div>
+                
+            </div>
+            <div class="kodex3">
+                <div class="vc-item">
+                    <img src="img/block-7.jpg" class="zone-img" alt="">
+                </div>
+                <div class="vc-item">
+                    <img src="img/block-8.jpg" class="zone-img" alt="">
+                </div>
+                <div class="vc-item">
+                    <img src="img/block-9.jpg" class="zone-img" alt="">
+                </div>
+                <div class="vc-item">
+                    <img src="img/block-10.jpg" class="zone-img" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="vinbarZ">
+        <div class="textlive">
+            Винный бар & ресторан «Pardon My French»
+        </div>
+        <div class="num-text">
+            <div class="btn_block_vin"><button class="btn_look_vin_rest"><a href="#main" style="color: #444444;">ЗАБРОНИВАТЬ СТОЛ</a></button></div>
+            <div class="text">или ПОЗВОНИТЬ +7 (383) 381-91-02</div>
+        </div>
+    </div>
+    <div class="maps">
+        <div class="minakarte">Мы на карте</div>
+        <div class="cotacts-top">
+            <span class="contacts-item">
+                <img src="img/map-100x100.png" alt="">
+                ул. Коммунистическая, 34
+            </span>
+            <span class="contacts-item">
+                <img src="img/phone-100x100.png" alt="">
+                +7 (383) 381-91-02
+            </span>
+        </div>
+        <div class="yandexmap">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae80820589d0ea89a22ba24070fca18285344eb7386c4a2633ade15c77633f303&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+    </div>
+    <footer id="contaxks">
+        <a href="" class="logo-footer"><img src="img/PMF-00_1.svg" alt=""></a>
+        <div class="text-1">
+            <div class="timework">Время работы</div>
+            <div class="textwidget">
+                <p>
+                    Пн - чт 18:00-01:00
+                    <br>
+                    Пт 18:00-02:00
+                    <br>
+                    Сб 12:00-02:00
+                    <br>
+                    Вс 12:00-01:00
+                </p>
+            </div>
+        </div>
+        <div class="text-2">
+            <div class="contacs">Контакты</div>
+            <div class="textwidget">
+                <p class="">
+                    Новосибирск,
+                    <br>
+                    Коммунистическая, 34
+                </p>
+                 <p>
+                    Менеджер:
+                    +7 (383) 381-91-02
+                  <br>
+                </p>   
+                <p>
+                    По вопросам сотрудничества и
+                    <br>
+                    вакансиям пишите на почту
+                    <br>
+                    pardonmyfrench@gmail.com
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
