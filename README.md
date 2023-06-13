@@ -1,2 +1,2 @@
-# pardonmyfrench.
+# pardonmyfrench
 restaurant
