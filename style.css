@@ -52,6 +52,12 @@ header a.logo{
     font-size: 20px;
     padding: 0 20px;
 }
+/* navbar */
+
+/*  */
+.menuphone{
+    display: none;
+}
 section{
     min-height: 900px;
     width: 100%;
@@ -59,6 +65,9 @@ section{
     background-size: cover;
     background-position: center center;
     position: relative;
+}
+.vinlive{
+    padding-left: 10px;
 }
 .vinbar{
     color: #fff;
@@ -331,8 +340,8 @@ img {
 }
 .dostavka{
     text-align: right;
-    padding: 0px 90px 0 30px;
-    margin: 45px 0px 45px 0 ;
+    padding: 1px 77px 0 98px;
+    margin: 81px -75px 36px 0;
 }
 .galereya{
     background-color: #324050;
@@ -559,6 +568,505 @@ footer{
 .textwidget{
     color: #444444;
     font-size: 20px;
+}
+.copyright{
+    background: transparent;
+    display: none;
+}
+
+@media (max-width: 1500px) {
+    .vinlive{
+        padding-left: 10px;
+        width: 630px;
+    }
+    .vinelovezone p {
+        font-size: 18px;
+    }
+    .vinelovezone {
+        display: flex;
+        padding-top: 50px;
+    }
+    .vinezone img{
+        width: 550px;
+        height: 450px;
+        vertical-align: middle;
+        padding: 10px;
+    }
+    .dostavka{
+        text-align: right;
+        padding: 1px 81px 0 162px;
+        margin: 81px -58px 36px 0;
+    }
+}
+@media (max-width: 1300px) {
+    .vinlive{
+        padding-left: 10px;
+        width: 630px;
+    }
+    .vinelovezone p {
+        font-size: 18px;
+    }
+    .vinelovezone {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
+    }
+    .vinezone img{
+        width: 450px;
+        height: 350px;
+        vertical-align: middle;
+        padding: 10px;
+    }
+    .akzie img{
+        width: 270px;
+        height: 370px;
+    }
+    .textakz{
+        font-size: 16px;
+    }
+    .btn_bron_zon {
+        width: 60%;
+        font-size: 15px;
+    }
+    .zone-img {
+        width: 300px;
+        height: 300px;
+    }
+    .galereya {
+        height: 1485px;
+    }
+    .vc-item-1 {
+        width: 300px;
+        height: 527px;
+    }
+    video {
+        width: 300px;
+        height: 525px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .vinlive{
+        padding-left: 10px;
+        width: 630px;
+    }
+    .vinelovezone p {
+        font-size: 18px;
+    }
+    .vinelovezone {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
+    }
+    .vinezone img{
+        width: 450px;
+        height: 350px;
+        vertical-align: middle;
+        padding: 10px;
+    }
+    .dostavka{
+        text-align: right;
+        padding: -2px 81px 0 162px;
+        margin: 16px -58px 36px 0;
+    }
+    section {
+        min-height: 690px;
+    }
+    .akzie img{
+        width: 230px;
+        height: 280px;
+    }
+    .textakz{
+        font-size: 14px;
+    }
+    .btn_bron_zon {
+        width: 60%;
+        font-size: 15px;
+    }
+    .zone-img {
+        width: 300px;
+        height: 300px;
+    }
+    .galereya {
+        height: 1485px;
+    }
+    .vc-item-1 {
+        width: 300px;
+        height: 527px;
+    }
+    video {
+        width: 300px;
+        height: 525px;
+    }
+}
+@media (max-width: 998px) {
+    .logo img {
+        height: 65px;
+        width: 65px;
+    }
+    .center-nav a {
+        font-size: 18px;
+    }
+    .live {
+        font-size: 35px;
+    }
+    .vinlive{
+        padding-left: 10px;
+        width: 630px;
+    }
+    .desc-bar {
+        font-size: 28px;
+    }
+    .wpb {
+        font-size: 35px;
+    }
+    /* акции */
+    section {
+        min-height: 470px;
+    }
+    .akzie img{
+        width: 180px;
+        height: 200px;
+    }
+    .textakz{
+        font-size: 12px;
+    }
+    .btn_bron_zon {
+        width: 60%;
+        font-size: 12px;
+    }
+    /* конец акции */
+    .vinelovezone p {
+        font-size: 16px;
+    }
+    .vinelovezone {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
+    }
+    .vinezone img{
+        width: 450px;
+        height: 350px;
+        vertical-align: middle;
+        padding: 10px;
+    }
+    .btn_look_vin_map {
+        width: 60%;
+        font-size: 12px;
+    }
+    .dostavka{
+        text-align: right;
+        padding: -2px 81px 0 162px;
+        margin: 16px -58px 36px 0;
+    }
+    /*  */
+    .zone-img {
+        width: 300px;
+        height: 300px;
+    }
+    .galereya {
+        height: 1485px;
+    }
+    .vc-item-1 {
+        width: 300px;
+        height: 527px;
+    }
+    video {
+        width: 300px;
+        height: 525px;
+    }
+}
+@media (max-width: 450px) {
+    header{
+        position: relative;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+        background-color: #ffffff;
+    }
+    header a{
+        color: #000000;
+    }
+    header.scrolled {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff;
+        width: 100%;
+        padding-right: 50px;
+        color: #000000;
+        box-shadow: 0 6px 14px rgb(0 0 0 / 5%), 0 3px 3px rgb(0 0 0 / 5%);
+      }
+    .logo img {
+        height: 65px;
+        width: 65px;
+    }
+    .center-nav a {
+        font-size: 16px;
+    }
+    /* navbar */
+    .navbar {
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      .navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .navbar a.active {
+        background-color: #4CAF50;
+        color: white;
+      }
+    /*  */
+    .menuphone{
+        display: flex;
+    }
+    .content {
+        display: grid;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        box-sizing: content-box;
+        width: 1200px;
+    }
+    .text-field__input {
+        width: 90%;
+    }
+    .reserv-but {
+        cursor: pointer;
+        border: 1px solid #cca370;
+        background-color: transparent;
+        height: 50px;
+        width: 80%;
+        color: #ffffff;
+        font-size: 18px;
+        box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+        transition: background-color 0.5s ease-in-out;
+    }
+    .obrz {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .live {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        width: 350px;
+        font-weight: 600;
+        color: #303e4c;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .izbr {
+        font-size: 22px;
+    }
+    .vinlive{
+        padding-left: 10px;
+        width: 430px;
+        text-align: left;
+    }
+    .desc-bar {
+        font-size: 26px;
+    }
+    .wpb {
+        font-size: 35px;
+    }
+    .vinelovezone p {
+        font-size: 14px;
+    }
+    .vinezone img{
+        width: 420px;
+        height: 350px;
+        vertical-align: middle;
+        padding: 10px;
+    }
+    /* акции */
+    section {
+        min-height: 770px;
+        padding-bottom: 30px;
+    }
+    .promo {
+        display: grid;
+        justify-content: center;
+    }
+    .akzie img{
+        width: 300px;
+        height: 350px;
+    }
+    .textakz{
+        font-size: 18px;
+    }
+    .btn_bron_zon {
+        width: 60%;
+        font-size: 12px;
+    }
+    /* конец акции */
+    .europa {
+        font-size: 18px;
+    }
+    /*  */
+    /*  */
+    .vinelovezone {
+        display: grid;
+        justify-content: space-between;
+        padding-top: 50px;
+    }
+    
+    .btn_look_vin_map {
+        width: 60%;
+        font-size: 12px;
+    }
+    .dostavka{
+        padding: 0 10px;
+        margin: 0px;
+        text-align: right;
+    }
+    .vinika {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #303e4c;
+        margin-top: 80px;
+        margin-bottom: 25px;
+        font-size: 46px;
+    }
+    /*  */
+    .galereya {
+        height: 3950px;
+    }
+    .pageable-slide {
+        display: grid;
+        justify-content: center;
+    }
+    .zone-img {
+        width: 300px;
+        height: 300px;
+    }
+    .vc-item-1 {
+        width: 300px;
+        height: 527px;
+    }
+    video {
+        width: 300px;
+        height: 525px;
+    }
+    /*  */
+    /* блок забр стол */
+    .textlive {
+        font-size: 30px;
+        color: #303e4c;
+        text-align: center;
+        padding-top: 60px;
+    }
+    .num-text {
+        display: grid;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    /* контакты */
+    .cotacts-top {
+        display: grid;
+    }
+    .contacts-item {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .contacts-item img {
+        width: 40px;
+        height: 40px;
+    }
+    /*  */
+    footer {
+        height: 300px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+    .logo-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .timework {
+        
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .textwidget {
+        
+        color: #444444;
+        font-size: 18px;
+    }
+    .contacs {
+        
+        color: #303e4c;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .copyright{
+        background: transparent;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+    .policy{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .policy a{
+        color: #000000;
+        cursor: pointer;
+    }
+    .copyright-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*menu */
+    .menu-photo img{
+        width: 430px;
+    }
+    /*  */
+    .vino-photo-1 img{
+        width: 430px;
+    }
+    /*  */
+    .menu-dostavka {
+        padding-top: 10px;
+    }
+    .menu-dostavka img{
+        width: 430px;
+    }
+    .text-menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px;
+    }
 }
 
 
